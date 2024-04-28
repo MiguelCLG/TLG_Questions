@@ -1,0 +1,9 @@
+Module
+  name: game_button_movement
+  description: Displays a moving button
+  author: MiguelCLG
+  website: www.otclient.info
+  sandboxed: true
+  scripts: [ button_movement.lua ]
+  @onLoad: init()
+  @onUnload: terminate()

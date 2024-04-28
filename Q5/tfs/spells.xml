@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+	<!-- Attack Spells -->
+	<instant group="attack" spellid="161" name="Tempest" words="frigo" level="60" mana="1050" premium="1" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="attack/tempest.lua">
+		<vocation name="Sorcerer" />
+		<vocation name="Druid" />
+		<vocation name="Knight" />
+	</instant>
+	<!-- ... Rest of the spells -->
+</spells>
